@@ -83,7 +83,7 @@ delay(100);
       lcd.clear();
       lcd.setCursor(0, 0); //first column, row #1
       lcd.print("Color Detection");
-      lcd.setCursor(0, 1); //second column, row #1
+      lcd.setCursor(0, 1); //first column, row #2
       lcd.print("Color : ");
       lcd.print("Red");
       Serial.println(" - (Red Color)");
@@ -96,7 +96,7 @@ delay(100);
     lcd.clear();
     lcd.setCursor(0, 0); //first column, row #1
     lcd.print("Color Detection");
-    lcd.setCursor(0, 1); //second column, row #1
+    lcd.setCursor(0, 1); //first column, row #2
     lcd.print("Color : ");
     lcd.print("Green");
     Serial.println(" - (Green Color)");
@@ -109,7 +109,7 @@ delay(100);
     lcd.clear();
     lcd.setCursor(0, 0); //first column, row #1
     lcd.print("Color Detection");
-    lcd.setCursor(0, 1); //second column, row #1
+    lcd.setCursor(0, 1); //first column, row #2
     lcd.print("Color : ");
     lcd.print("Blue");
     Serial.println(" - (Blue Color)");
